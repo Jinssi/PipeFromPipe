@@ -13,4 +13,4 @@ resources:
           - master
 steps:
   - checkout: none
-  - script: echo 'triggered depends'
+  - script: echo 'triggered fetcher'
