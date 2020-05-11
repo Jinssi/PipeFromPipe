@@ -1,7 +1,4 @@
-﻿using System;
-
-/* A glorius Keanu Reeves app just to show it works.*/
-
+using System;
 namespace PipeFromPipe
 {
     class Program

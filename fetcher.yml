@@ -1,7 +1,5 @@
 trigger: none
 pr: none
-# I've disabled CI and PR triggers on the fetcher pipe to avoid commit deployments.  
-
 resources:
   pipelines:
     - pipeline: source
