@@ -1,11 +1,6 @@
-using System;
+﻿using System;
 namespace PipeFromPipe
 {
     class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("You're breathtaking!");
-        }
-    }
-}
+    /* A glorius Keanu Reeves app just to show it works.*/
+    {static void Main(string[] args){Console.WriteLine("You're breathtaking!");}}}

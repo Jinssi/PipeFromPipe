@@ -11,4 +11,4 @@ resources:
           - master
 steps:
   - checkout: none
-  - script: echo 'triggered fetcher'
+  - script: echo 'Fetcher run'
