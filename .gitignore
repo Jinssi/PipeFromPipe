@@ -25,6 +25,7 @@ msbuild.wrn
 *.pyc
 *.dbmdl
 *.jfm
+*.sln
 
 Logs/
 Secrets/
