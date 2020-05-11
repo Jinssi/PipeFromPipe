@@ -1,0 +1,16 @@
+trigger:
+  branches:
+    include: 
+    - master
+    - release
+pr: none
+
+steps:
+  - task: CopyFiles@2
+    inputs:
+      contents: $(System.DefaultWorkingDirectory)/**/*.yml
+      targetFolder: $(Build.ArtifactStagingDirectory)
+  - task: PublishBuildArtifacts@1
+    inputs:
+      pathtoPublish: $(Build.ArtifactStagingDirectory)
+      artifactName: dummy-$(Build.BuildId)
